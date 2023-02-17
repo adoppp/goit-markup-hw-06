@@ -80,34 +80,38 @@
           <form class="modal-form">
             <p id="contact-details-head" class="header-m-f">Leave your contacts and we will call you back</p>
             
-            <label for="name" class="label-modal svg-lb">Name
+            <label for="name" class="label-modal svg-lb"><span class="text-input-gray">Name</span>
               <input type="text" name="username" id="name" class="input-modal" required>
               <svg class="svg-modal">
                 <use href="./images/icons.svg#icon-person-black"></use>
               </svg>
           </label>
 
-            <label for="phome-number" class="label-modal other-lb svg-lb">Phone
+            <label for="phome-number" class="label-modal other-lb svg-lb"><span class="text-input-gray">Phone</span>
               <input type="tel" class="input-modal" name="phone-number" id="phome-number" required>
               <svg class="svg-modal">
                 <use href="./images/icons.svg#icon-phone-black"></use>
               </svg>
             </label>
 
-            <label for="email-modal" class="label-modal other-lb svg-lb">Email
+            <label for="email-modal" class="label-modal other-lb svg-lb"><span class="text-input-gray">Email</span>
               <input type="email" class="input-modal" name="email-modal" id="email-modal" required>
               <svg class="svg-modal">
                 <use href="./images/icons.svg#icon-email-black"></use>
               </svg>
             </label>
 
-            <label for="text-modal" class="label-modal other-lb lb-n">Comment
+            <label for="text-modal" class="label-modal other-lb lb-n"><span class="text-input-gray">Comment</span>
             <textarea name="comments-m" id="comments-m" rows="10" class="textarea-modal" placeholder="Text input"></textarea>
             </label>
 
             <label class="label-checkbox">
-            <input type="checkbox" name="privacy-policy" class="checkbox-modal" required>
-            <a class="descr-checkbox" href="#">I accept the terms and conditions of the <span class="link-checkbox">Privacy Policy</span></a>
+            <input type="checkbox" name="privacy-policy" class="custom" required>
+            <span class="checkbox-item"></span>
+            <svg class="checkbox-svg" width="16px" height="16px">
+              <use href="./images/icons.svg#icon-vector"></use>
+            </svg>
+            <span class="descr-checkbox" href="#">I accept the terms and conditions of the <a class="link-checkbox">Privacy Policy</a></span>
             </label>
             
             <button type="submit" class="btn-modal">Send</button>
