@@ -78,43 +78,39 @@
             </svg>
           </button>
           <form class="modal-form">
-            <div role="group" aria-labelledby="contact-details-head" class="container-modal-form">
             <p id="contact-details-head" class="header-m-f">Leave your contacts and we will call you back</p>
             
-            <label for="name" class="label-modal">Name</label>
-            <div class="for-svg-modal">
+            <label for="name" class="label-modal svg-lb">Name
               <input type="text" name="username" id="name" class="input-modal" required>
               <svg class="svg-modal">
                 <use href="./images/icons.svg#icon-person-black"></use>
               </svg>
-            </div>
+          </label>
 
-            <label for="phome-number" class="label-modal other-lb">Phone</label>
-            <div class="for-svg-modal">
+            <label for="phome-number" class="label-modal other-lb svg-lb">Phone
               <input type="tel" class="input-modal" name="phone-number" id="phome-number" required>
               <svg class="svg-modal">
                 <use href="./images/icons.svg#icon-phone-black"></use>
               </svg>
-            </div>
+            </label>
 
-            <label for="email-modal" class="label-modal other-lb">Email</label>
-            <div class="for-svg-modal">
+            <label for="email-modal" class="label-modal other-lb svg-lb">Email
               <input type="email" class="input-modal" name="email-modal" id="email-modal" required>
               <svg class="svg-modal">
                 <use href="./images/icons.svg#icon-email-black"></use>
               </svg>
-            </div>
+            </label>
 
-            <label for="text-modal" class="label-modal other-lb">Comment</label>
+            <label for="text-modal" class="label-modal other-lb lb-n">Comment
             <textarea name="comments-m" id="comments-m" rows="10" class="textarea-modal" placeholder="Text input"></textarea>
-            
+            </label>
+
             <label class="label-checkbox">
             <input type="checkbox" name="privacy-policy" class="checkbox-modal" required>
-            <p class="descr-checkbox">I accept the terms and conditions of the <a class="link-checkbox">Privacy Policy</a></p>
+            <a class="descr-checkbox" href="#">I accept the terms and conditions of the <span class="link-checkbox">Privacy Policy</span></a>
             </label>
             
             <button type="submit" class="btn-modal">Send</button>
-            </div>
           </form>
         </div>
     </div>
