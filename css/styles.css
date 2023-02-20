@@ -506,6 +506,8 @@ justify-content: space-around; */
 .header-bottom {
     border-bottom: 1px solid #E7E9FC;
     padding: 23px 0;
+    background-color: #FFFFFF;
+    width: 1440px;
 }
 
 .li-nav {
